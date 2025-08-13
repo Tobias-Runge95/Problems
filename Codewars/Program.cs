@@ -4,8 +4,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var testValue = new int[] { 15, 28, 4, 2, 43 };
-        var test = Sum_of_two_lowest_positive_integers.sumTwoSmallestNumbers(testValue);
+        var testValue = new[] { 1, 3, 5, 2, 4 };
+        var test = Least_Larger.LeastLarger(testValue, 0);
         Console.WriteLine(test);
     }
 }
